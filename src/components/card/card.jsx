@@ -14,7 +14,7 @@ export const Card = () => {
   };
   return (
     <>
-      <div className="container text-center mt-[30px]">
+      <div className="container text-red-500 text-center mt-[30px]">
         {userList.map((item) => (
           <div
             className=" bg-blue-400 rounded-[10px] w-[400px] p-[20px] mx-auto mb-[20px]"
